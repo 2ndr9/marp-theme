@@ -1,0 +1,5 @@
+{
+  "markdown.marp.themes": ["./theme.css"],
+  "markdown.marp.enableHtml": true,
+  "markdown.marp.pdf.noteAnnotations": true
+}

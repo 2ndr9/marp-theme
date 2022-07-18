@@ -1,0 +1,70 @@
+/* @theme academic */
+
+@import "gaia";
+
+:root {
+  /* --color-background: #f0f0f0; */
+  /* --color-background: #e9e3df; */
+  --color-background: #e5e2df;
+  --color-highlight: #215a9bc5;
+}
+
+section {
+  background-image: none;
+  font-family: "Noto Sans JP", sans-serif;
+  padding-top: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+ul ul {
+  font-size: 0.9em;
+}
+
+section.cover {
+  text-align: right;
+}
+
+section.cover h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: left;
+}
+
+header {
+  background-color: #9a9389;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+blockquote {
+  width: 88%;
+  border-top: 0.1em dashed #555;
+  font-size: 60%;
+  position: absolute;
+  bottom: 20px;
+}
+blockquote::before {
+  content: "";
+}
+blockquote::after {
+  content: "";
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+code {
+  font-family: "Source Code Pro", monospace;
+}
