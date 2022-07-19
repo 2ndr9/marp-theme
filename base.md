@@ -15,14 +15,14 @@ _paginate: false
 <br>
 <br>
 
-# タイトル 
-####  サブタイトル
+# title 
+####  subtitle
 
 <br>
 <br>
 <br>
 
-**名字 名前**
+**FirstName FamilyName**
 YYYY/MM/DD
 
 ---
@@ -30,13 +30,13 @@ YYYY/MM/DD
 <!-- _header: header -->
 
 - $e^{i\pi} + 1 = 0$
-  - ネスト$^1$
+  - nest$^1$
 - `inline-code`
-  - ネスト$^2$
+  - nest$^2$
 - **bold** 
 
-> 1: 脚注
-> 2: 脚注
+> 1: footnote
+> 2: footnote
 
 <!-- this become speaker note in powerpoint and html slide deck mode-->
 
@@ -45,13 +45,13 @@ YYYY/MM/DD
 <!-- _header: header -->
 
 - $e^{i\pi} + 1 = 0$
-  - ネスト$^1$
+  - nest$^1$
 - `inline-code`
-  - ネスト$^2$
+  - nest$^2$
 - **bold** 
 
-> 1: 脚注
-> 2: 脚注
+> 1: footnote
+> 2: footnote
 
 <cover>
 This is cover.<br>This is cover.
@@ -59,11 +59,11 @@ This is cover.<br>This is cover.
 
 ---
 
-<!-- _header: 図 -->
+<!-- _header: figure -->
 
-1. [リンク](http://example.com)
+1. [link](http://example.com)
 2. $^{hello}$
 
 ![w:400 center](./sample.jpg)
 
-> 1: 脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注脚注
+> 1:footnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnote
