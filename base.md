@@ -42,6 +42,23 @@ YYYY/MM/DD
 
 ---
 
+<!-- _header: header -->
+
+- $e^{i\pi} + 1 = 0$
+  - ネスト$^1$
+- `inline-code`
+  - ネスト$^2$
+- **bold** 
+
+> 1: 脚注
+> 2: 脚注
+
+<cover>
+This is cover.<br>This is cover.
+</cover>
+
+---
+
 <!-- _header: 図 -->
 
 1. [リンク](http://example.com)
