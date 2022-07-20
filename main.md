@@ -1,13 +1,12 @@
 ---
 marp: true
-theme: academic 
+theme: academic
 paginate: true
 size: 16:9
 math: katex
-
 ---
 
-<!-- 
+<!--
 _class: cover
 _paginate: false
 -->
@@ -15,8 +14,9 @@ _paginate: false
 <br>
 <br>
 
-# title 
-####  subtitle
+# title
+
+#### subtitle
 
 <br>
 <br>
@@ -33,7 +33,7 @@ YYYY/MM/DD
   - nest$^1$
 - `inline-code`
   - nest$^2$
-- **bold** 
+- **bold** <citation>[1]</citation>
 
 > 1: footnote
 > 2: footnote
@@ -48,7 +48,7 @@ YYYY/MM/DD
   - nest$^1$
 - `inline-code`
   - nest$^2$
-- **bold** 
+- **bold**
 
 > 1: footnote
 > 2: footnote
@@ -67,3 +67,20 @@ This is cover.<br>This is cover.
 ![w:400 center](./sample.jpg)
 
 > 1:footnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnotefootnote
+
+---
+
+<!--
+_header: multiple-figure
+_class: figure
+-->
+
+#### `_class: figure` convert table to mutiple-figure layout
+
+<br/>
+<br/>
+
+|                        |                                |                        |
+| ---------------------- | ------------------------------ | ---------------------- |
+| ![w:200](./sample.jpg) | hello                          | ![w:200](./sample.jpg) |
+| ![w:200](./sample.jpg) | ![w:200](./sample.jpg)$^{[1]}$ | figure                 |

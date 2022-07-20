@@ -85,3 +85,25 @@ cover {
   border: 0.2em solid black;
   opacity: 80%;
 }
+
+citation {
+  font-size: 27px;
+}
+
+section.figure table {
+  margin: auto;
+  table-layout: fixed;
+  width: 90%;
+  display: table;
+}
+
+section.figure thead th {
+  background-color: transparent !important;
+  border: 0cm;
+}
+
+section.figure tbody td {
+  background-color: transparent !important;
+  border: 0px !important;
+  text-align: center;
+}
