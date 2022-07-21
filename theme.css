@@ -46,7 +46,7 @@ blockquote {
   border-top: 0.1em dashed #555;
   font-size: 60%;
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
 }
 blockquote::before {
   content: "";
